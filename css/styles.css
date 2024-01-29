@@ -1,0 +1,62 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    list-style: none;
+    text-decoration: none;
+}
+.logo{
+    display: flex;
+    align-items: center    ;
+}
+.navegaddor{
+    display: flex;
+    justify-content: flex-end;
+    margin:2px;
+    display: flex  ;
+    border: 2px    ;
+    flex-direction: left;
+}
+#home{
+    height:55vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: aqua;
+    align-items: center
+}
+
+#Abuot{
+    height:55vh;
+    display: flex;  
+    justify-content: space-evenly;
+    background-color: greenyellow;
+    align-items: center
+}
+
+#menu{
+    height:55vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: green;
+    align-items: center
+
+}
+#services{
+    height:55vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: wheat;
+    align-items: center
+
+}
+
+#contact{
+    height:55vh;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: dimgray;
+    align-items: center
+
+}
