@@ -7,19 +7,36 @@
     list-style: none;
     text-decoration: none;
 }
+body{
+    background: black;
+}
 .logo{
     display: flex;
     align-items: center    ;
+    width: 49vw;
+    font-size: 2em;
 }
-.navegaddor{
+
+nav{
+    width: 100vw;
+    height: 15vh;
     display: flex;
-    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.5em;    
+    justify-content: space-evenly;
+
+}
+
+.navegaddor{
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
     margin:2px;
-    display: flex  ;
     border: 2px    ;
-    flex-direction: left;
+    
 }
 #home{
+    width: 100vw;
     height:55vh;
     display: flex;
     justify-content: space-evenly;
@@ -28,6 +45,7 @@
 }
 
 #Abuot{
+    width: 100vw;
     height:55vh;
     display: flex;  
     justify-content: space-evenly;
@@ -36,23 +54,24 @@
 }
 
 #menu{
+    width: 100vw;
     height:55vh;
     display: flex;
     justify-content: space-evenly;
     background-color: green;
     align-items: center
-
 }
 #services{
+    width: 100vw;
     height:55vh;
     display: flex;
     justify-content: space-evenly;
     background-color: wheat;
     align-items: center
-
 }
 
 #contact{
+    width: 100vw;
     height:55vh;
     display: flex;
     justify-content: space-evenly;
