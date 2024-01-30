@@ -43,8 +43,41 @@ nav{
     background-color: aqua;
     align-items: center
 }
-
-#Abuot{
+#left-home{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20vw;
+}
+#rigth-home, #left-about{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    color: orange;
+    font-size: 4em;
+}
+#rigth-about h3{
+    color: orange;
+    font-size: 1em;
+}
+h2{
+    font-size: 2em;
+}
+#left-home p{
+    font-size: 1.5em;
+}
+button{
+    background-color: orange;
+    width: 100px;
+    height: 50px;
+    border-color: orange;
+    color: white;
+}
+img{
+    width: 40%;
+}
+#About{
     width: 100vw;
     height:55vh;
     display: flex;  
@@ -78,4 +111,16 @@ nav{
     background-color: dimgray;
     align-items: center
 
+}
+#menu{
+    display: flex;
+    flex-direction: column;
+    
+}
+#cuadrados{
+    display: flex;
+    flex-direction: left;
+}
+.cuadrado{
+    background-color: white;
 }
