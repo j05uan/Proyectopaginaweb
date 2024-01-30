@@ -119,8 +119,23 @@ img{
 }
 #cuadrados{
     display: flex;
-    flex-direction: left;
+    justify-content: space-evenly;
+    width: 100vw; 
+    
 }
 .cuadrado{
     background-color: white;
+    width: 270px;
+    height: 220px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px auto;
+    border: white;
+}
+
+#services{
+    display: flex;
+    flex-direction: column;
 }
