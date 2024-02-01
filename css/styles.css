@@ -12,6 +12,7 @@ body{
 }
 .logo{
     display: flex;
+    flex-direction: column;
     align-items: center    ;
     width: 49vw;
     font-size: 2em;
@@ -24,12 +25,14 @@ nav{
     align-items: center;
     font-size: 1.5em;    
     justify-content: space-evenly;
+    flex-direction: column;
 
 }
 
 .navegaddor{
     width: 40vw;
     display: flex;
+    float: left;
     justify-content: space-evenly;
     margin:2px;
     border: 2px    ;
@@ -37,7 +40,7 @@ nav{
 }
 #home{
     width: 100vw;
-    height:55vh;
+    height:100vh;
     display: flex;
     justify-content: space-evenly;
     background-color: aqua;
@@ -79,7 +82,7 @@ img{
 }
 #About{
     width: 100vw;
-    height:55vh;
+    height:100vh;
     display: flex;  
     justify-content: space-evenly;
     background-color: greenyellow;
@@ -88,7 +91,7 @@ img{
 
 #menu{
     width: 100vw;
-    height:55vh;
+    height:100vh;
     display: flex;
     justify-content: space-evenly;
     background-color: green;
@@ -96,8 +99,9 @@ img{
 }
 #services{
     width: 100vw;
-    height:55vh;
+    height:100vh;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     background-color: wheat;
     align-items: center
@@ -105,7 +109,7 @@ img{
 
 #contact{
     width: 100vw;
-    height:55vh;
+    height:100vh;
     display: flex;
     justify-content: space-evenly;
     background-color: dimgray;
@@ -133,9 +137,4 @@ img{
     align-items: center;
     padding: 2px auto;
     border: white;
-}
-
-#services{
-    display: flex;
-    flex-direction: column;
 }
